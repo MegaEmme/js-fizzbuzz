@@ -22,11 +22,11 @@ prima di tutto, nel file README, indicare tutti i passaggi utili allo svolgiment
 
 - imposto un ciclo **for** (a cui assegno una variabile) che conti i numeri da 1 a 100
 - all'interno del ciclo for apro un ciclo **if**:
-    - **se** la variabile è multiplo di 3
+    - **se** la variabile è multiplo di 3 e multiplo di 5 (**"&&"**) 
+        - stampa *"fizzbuzz"*;
+    - **altrimenti se** la variabile è multiplo di 3
         - stampa *"fizz"*;
     - **altrimenti se** la variabile è multiplo di 5
         - stampa *"buzz"*;
-    - **altrimenti se** la variabile è multiplo di 3 e multiplo di 5 (**"&&"**) 
-        - stampa *"fizzbuzz"*;
     - **altrimenti**
         - stampa *"valore numerico della variabile"*.
